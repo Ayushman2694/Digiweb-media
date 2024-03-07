@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+.navigation {
+  display: flex;
+  background-color: #c1071e;
+  height: 6vh;
+  width: 100vw;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c1071e;
+  height: 6vh;
+  width: 100vw;
+}
+
+.nav-left{
+  display: flex;
+  justify-content: flex-start;
+  width: 30vw;
+  font-size: 100%;
+}
+.nav-right{
+  display: flex;
+  justify-content:flex-end;
+  width: 25vw;
+
+}
+a.left{
+  margin: auto 10px;
+  text-decoration: none;
+  color: #dedede;
+  transition: border-bottom 2s;
+}
+a.left:hover{
+  border-bottom: 2px solid #dedede;
+}
+a.right{
+  margin: auto 10px;
+  text-decoration: none;
+  color: #dedede;
+}
+a>img:hover{
+  border-bottom: 2px solid #dedede;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: black;
+  color: #dedede;
+  
+}
+p{
+  position: absolute;
+  font-size: 200%;
+  text-align: center;
+  transition: font-size .2s;
+  
+}
+
+img{
+  width: 35px;
+}
+p:hover{
+  font-size:300%;
+}
+.creatives{
+  display: flex;
+  flex-direction: row;
+}
+.creative{
+  width: auto;
+  margin: auto 10p;
+}
+
+
+
+/* @media screen and (max-width:881px)
+{ body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+.navigation {
+  display: flex;
+  background-color: #c1071e;
+  height: 6vh;
+  width: 100vw;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c1071e;
+  height: 6vh;
+  width: 100vw;
+}
+
+.nav-left{
+  display: flex;
+  justify-content: flex-start;
+  width: 30vw;
+  font-size: 100%;
+}
+.nav-right{
+  display: flex;
+  justify-content:flex-end;
+  width: 25vw;
+
+}
+a.left{
+  margin: auto;
+  text-decoration: none;
+  color: #dedede;
+}
+a.right{
+  margin: auto;
+  text-decoration: none;
+  color: #dedede;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: black;
+  color: #dedede;
+  
+}
+h1{
+  position: absolute;
+  
+  text-align: center;
+}
+  img{
+    width: 50%;
+  }
+  
+} */
